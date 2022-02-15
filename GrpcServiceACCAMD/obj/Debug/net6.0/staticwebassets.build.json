@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yEF9dkhPuQHrVdlcEAE+o4VdsRXF6LjHluV7batPVZY=",
+  "Source": "GrpcServiceACCAMD",
+  "BasePath": "_content/GrpcServiceACCAMD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

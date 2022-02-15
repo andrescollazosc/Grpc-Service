@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcServiceACCAMD";
+
+service GrpcPersonService {
+	rpc GetPerson (StatusPersonRequest) returns (PersonResponse);
+	rpc Create (PersonRequest) returns (ResultRequest);
+}
+
+// Define request
+message StatusPersonRequest {
+	int32 id = 1;
+}
+
+message PersonRequest {
+	int32 id = 1;
+	string firstName = 2;
+	string lastName = 3;
+	string passport = 4;
+}
+
+// Define response
+message PersonResponse {
+	int32 id = 1;
+	string firstName = 2;
+	string lastName = 3;
+}
+
+message ResultRequest {
+	string messsage = 1;
+	bool status = 2;
+}
